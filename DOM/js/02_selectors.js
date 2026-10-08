@@ -13,3 +13,7 @@ console.log(products);
 
 console.log(typeof buyButton);
 console.log(buyButton);
+
+products.forEach((product) => {
+    console.log(product.textContent);
+})
