@@ -1,2 +1,18 @@
 node_modules/
 /Lesson_23/apiKey
+
+# Local dependencies and private configuration (organization 2026-10-08)
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+!.env.sample
+apiKey
+apiKey.*
+secret.js
+secret.json
+secrets/
+*.pem
+*.key
+.idea/workspace.xml
