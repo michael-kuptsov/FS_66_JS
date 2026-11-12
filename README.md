@@ -1,16 +1,16 @@
-# React + Vite
+# Student CRM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Домашка №38 на React + Vite. Страница со списком студентов: имя, возраст, группа и статус обучения.
 
-Currently, two official plugins are available:
+Список и карточки вынесены в отдельные компоненты. Данные передаются через props, карточки выводятся через map. Есть счётчик студентов, сообщение для пустого списка и отметка для тех, кому меньше 18 лет.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Чтобы запустить проект:
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+После запуска открыть ссылку из терминала.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Условие задания](https://github.com/ilyalipshits/student_crm_38/blob/main/HW_38_text.md)
